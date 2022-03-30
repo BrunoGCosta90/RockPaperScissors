@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.score {
+    white-space: pre;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+}
+
+.rock, .paper, .scissors {
+    font-size: 32px;
+    margin: 0px 10px;
+    border-radius: 15%;
+}
+
+.score {
+    display: flex;
+    width: 120;
+    justify-content: center;
+    text-align: left;
+}
